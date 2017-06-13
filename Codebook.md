@@ -1,3 +1,14 @@
+
+
+    You have to download source data from link below and unzip it to working directory of R Studio.
+    You have to perform R script.
+
+About source data
+
+As source data for work was used Human Activity Recognition Using Smartphones Data Set. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones Here are the data for the project: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+
+
 File with R code "run_analysis.R" perform 5 following steps (in accordance assigned task of course work):
 
     Merging the training and the test sets to create one data set.
@@ -18,3 +29,8 @@ File with R code "run_analysis.R" perform 5 following steps (in accordance assig
     5.1 Making second tidy data set
     5.2 Writing second tidy data set in txt file
 
+About variables:
+
+    x_train, y_train, x_test, y_test, subject_train and subject_test contain the data from the downloaded files.
+    x_data, y_data and subject_data merge the previous datasets to further analysis.
+    
